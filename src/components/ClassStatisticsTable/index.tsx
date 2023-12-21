@@ -13,7 +13,7 @@ const ClassStatisticsTable: React.FC<ClassStatisticsTableProps> = ({ dataset, pr
         return null;
     }
 
-    const classNames = Object.keys(result).reverse(); // Reverse the order of class names
+    const classNames = Object.keys(result); // Reverse the order of class names
 
     return (
         <div>
